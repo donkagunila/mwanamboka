@@ -1,4 +1,4 @@
- <nav class="navbar navbar-expand-lg navbar-light">
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-togglable fixed-top">
       <div class="container">
 
         <!-- Brand -->

@@ -6,7 +6,7 @@
 @section('content')
 
 
-    <section data-jarallax data-speed=".8" class="pt-12 pb-10 pt-md-15 pb-md-14" style="background-image: url(assets/img/covers/cover-5.jpg)">
+    <section data-jarallax data-speed=".8" class="pt-12 pb-10 pt-md-15 pb-md-14" style="background-image: url(assets/img/covers/cover.jpg)">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-12 col-lg-8">

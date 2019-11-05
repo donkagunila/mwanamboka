@@ -10,7 +10,7 @@
             </p>
 
             <!-- Text -->
-            <p class="text-gray-700 mb-2">
+            <p class="text-white mb-2">
               A better way to Move.
             </p>
 
@@ -18,17 +18,20 @@
             <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
               <li class="list-inline-item list-social-item mr-3">
                 <a href="#!" class="text-decoration-none">
-                  <img src="assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                  <i class="fe fe-facebook text-white"></i>
+                  {{-- <img src="assets/img/icons/social/instagram.svg" class="list-social-icon" alt="..."> --}}
                 </a>
               </li>
               <li class="list-inline-item list-social-item mr-3">
                 <a href="#!" class="text-decoration-none">
-                  <img src="assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+                  <i class="fe fe-twitter text-white"></i>
+                  {{-- <img src="assets/img/icons/social/facebook.svg" class="list-social-icon" alt="..."> --}}
                 </a>
               </li>
               <li class="list-inline-item list-social-item mr-3">
                 <a href="#!" class="text-decoration-none">
-                  <img src="assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                  <i class="fe fe-instagram text-white"></i>
+                  {{-- <img src="assets/img/icons/social/twitter.svg" class="list-social-icon" alt="..."> --}}
                 </a>
               </li>
               
@@ -38,12 +41,12 @@
           <div class="col-6 col-md-4 col-lg-3">
         
             <!-- Heading -->
-            <h6 class="font-weight-bold text-uppercase text-gray-700">
+            <h6 class="font-weight-bold text-uppercase text-white">
               Services
             </h6>
 
             <!-- List -->
-            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+            <ul class="list-unstyled text-white mb-6 mb-md-8 mb-lg-0">
               <li class="mb-3">
                 <a href="#!" class="text-reset">
                   International Freight
@@ -67,12 +70,12 @@
            <div class="col-6 col-md-4 col-lg-3">
         
             <!-- Heading -->
-            <h6 class="font-weight-bold text-uppercase text-gray-700">
+            <h6 class="font-weight-bold text-uppercase text-white">
               Legal
             </h6>
 
             <!-- List -->
-            <ul class="list-unstyled text-muted mb-0">
+            <ul class="list-unstyled text-white mb-0">
               <li class="mb-3">
                 <a href="#!" class="text-reset">
                   Transport Policy
@@ -94,12 +97,12 @@
           <div class="col-6 col-md-4 col-lg-2">
         
             <!-- Heading -->
-            <h6 class="font-weight-bold text-uppercase text-gray-700">
+            <h6 class="font-weight-bold text-uppercase text-white">
               Our Company
             </h6>
 
             <!-- List -->
-            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+            <ul class="list-unstyled text-white mb-6 mb-md-8 mb-lg-0">
               <li class="mb-3">
                 <a href="#!" class="text-reset">
                   About Us
