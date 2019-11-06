@@ -6,32 +6,98 @@
 @section('content')
 
 
-    <section data-jarallax data-speed=".8" class="pt-12 pb-10 pt-md-15 pb-md-14" style="background-image: url(assets/img/covers/cover.jpg)">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-12 col-lg-8">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <section class="landing pt-12 pb-10 pt-md-15 pb-md-14" style="background-image: url('assets/img/covers/cover.jpg');">
+            <div class="container">
+              <div class="row align-items-center">
+                 <div class="col-12 col-md-12 col-lg-8">
             
-            <!-- Heading -->
-            <h1 class="display-3 font-weight-bold text-white" id="welcomeHeadingSource">
-              Get Moving <br />
-              <span class="text-warning" data-toggle="typed" data-strings='["Fast Services", "Ware housing Skills", "Movement Capacity"]'></span>
-            </h1>
+                      <!-- Heading -->
+                      <h1 class="display-3 font-weight-bold text-white" id="welcomeHeadingSource">
+                        Get Moving With Us
+                      </h1>
+                      
+                      <!-- Text -->
+                      <p class="font-size-lg text-white-80 mb-6">
+                        We define the rules of movement, fast reliable and always on time to provide you with the transit you so much desire
+                      </p>
+
+                     <!-- Button -->
+                      <a href="#!" class="btn btn-primary-desat lift">
+                        Request a Quote
+                      </a>
+
+                    </div>
+              </div>
+            </div>
+        </section>
+    </div>
+    <div class="carousel-item">
+      <section class="landing pt-12 pb-10 pt-md-15 pb-md-14" style="background-image: url('assets/img/covers/cover-2.jpg');">
+            <div class="container">
+              <div class="row align-items-right">
+                 <div class="col-12 col-md-12 col-lg-8">
             
+                      <!-- Heading -->
+                      <h1 class="display-3 font-weight-bold text-white" id="welcomeHeadingSource">
+                        Providing  transport and haulage Services
+                      </h1>
+                      
+                      <!-- Text -->
+                      <p class="font-size-lg text-white-80 mb-6">
+                        We define the rules of movement, fast reliable and always on time to provide you with the transit you so much desire
+                      </p>
 
-            <!-- Text -->
-            <p class="font-size-lg text-white-80 mb-6">
-              We define the rules of movement, fast reliable and always on time to provide you with the transit you so much desire
-            </p>
+                     
 
-           <!-- Button -->
-            <a href="#!" class="btn btn-primary-desat lift">
-              Request a Quote
-            </a>
+                    </div>
+              </div>
+            </div>
+        </section>
+    </div>
+    <div class="carousel-item">
+     <section class="landing pt-12 pb-10 pt-md-15 pb-md-14" style="background-image: url('assets/img/covers/cover-3.jpg');">
+            <div class="container">
+              <div class="row align-items-center">
+                 <div class="col-12 col-md-12 col-lg-8">
+            
+                      <!-- Heading -->
+                      <h1 class="display-3 font-weight-bold text-white" id="welcomeHeadingSource">
+                        Reliable Transporters
+                      </h1>
+                      
+                      <!-- Text -->
+                      <p class="font-size-lg text-white-80 mb-6">
+                        We define the rules of movement, fast reliable and always on time to provide you with the transit you so much desire
+                      </p>
 
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
+                     
+
+                    </div>
+              </div>
+            </div>
+        </section>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+    
 
 
   <!-- FLEXIBILITY

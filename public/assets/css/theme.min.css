@@ -15824,3 +15824,13 @@ body.compensate-for-scrollbar {
         right: 0
     }
 }
+
+.landing{
+    /*height: 100px;*/
+    /*background-color: red;*/
+    /*background-image: '../img/covers/cover.jpg'; */
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}

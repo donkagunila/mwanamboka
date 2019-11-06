@@ -11,12 +11,12 @@
 
     <!-- Libs CSS -->
     <link rel="stylesheet" href="{{ asset('assets/fonts/Feather/feather.css') }}">
-    <link rel="stylesheet" href="{{ asset('flickity/dist/flickity.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('flickity-fade/flickity-fade.css') }}">
-    <link rel="stylesheet" href="{{ asset('aos/dist/aos.css') }}">
-    <link rel="stylesheet" href="{{ asset('jarallax/dist/jarallax.css') }}">
-    <link rel="stylesheet" href="{{ asset('highlightjs/styles/vs2015.css') }}">
-    <link rel="stylesheet" href="{{ asset('%40fancyapps/fancybox/dist/jquery.fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/flickity/dist/flickity.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/flickity-fade/flickity-fade.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/aos/dist/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/jarallax/dist/jarallax.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/highlightjs/styles/vs2015.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.css') }}">
 
       <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
