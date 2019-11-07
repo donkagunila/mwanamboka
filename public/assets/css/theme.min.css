@@ -6505,7 +6505,7 @@ button.bg-light:hover {
 }
 
 .bg-dark {
-    background-color: #FFA000!important
+    background-color: #2b354f!important
 }
 
 a.bg-dark:focus,
@@ -13009,7 +13009,7 @@ a.text-light:hover {
 }
 
 .text-dark {
-    color: #FFA000!important
+    color: #2b354f!important
 }
 
 a.text-dark:focus,

@@ -10,7 +10,7 @@
             </p>
 
             <!-- Text -->
-            <p class="text-white mb-2">
+            <p class="text-muted mb-2">
               A better way to Move.
             </p>
 
@@ -46,7 +46,7 @@
             </h6>
 
             <!-- List -->
-            <ul class="list-unstyled text-white mb-6 mb-md-8 mb-lg-0">
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
               <li class="mb-3">
                 <a href="#!" class="text-reset">
                   International Freight
@@ -75,7 +75,7 @@
             </h6>
 
             <!-- List -->
-            <ul class="list-unstyled text-white mb-0">
+            <ul class="list-unstyled text-muted mb-0">
               <li class="mb-3">
                 <a href="#!" class="text-reset">
                   Transport Policy
@@ -102,7 +102,7 @@
             </h6>
 
             <!-- List -->
-            <ul class="list-unstyled text-white mb-6 mb-md-8 mb-lg-0">
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
               <li class="mb-3">
                 <a href="#!" class="text-reset">
                   About Us
