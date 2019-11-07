@@ -28,7 +28,12 @@
               </a>
             </li>
 
-            
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#">
+                About Us
+              </a>
+            </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDocumentation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Our Services
@@ -118,11 +123,7 @@
             </li>
 
 
-             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#">
-                About Us
-              </a>
-            </li>
+            
           </ul>
 
           <!-- Button -->
