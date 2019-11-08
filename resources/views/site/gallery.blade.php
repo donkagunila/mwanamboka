@@ -13,7 +13,7 @@
           <div class="col-12 col-md-10 col-lg-8 text-center">
             
             <!-- Headin -->
-            <h1 class="display-2">
+            <h1 class="display-2 mt-5">
               Our Gallery
             </h1>
 
