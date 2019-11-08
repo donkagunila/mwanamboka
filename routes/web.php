@@ -13,6 +13,7 @@
 
 Route::get('/', 'SiteController@index')->name('index');
 Route::get('/contact-us', 'SiteController@contact')->name('contact');
+Route::get('/about-us', 'SiteController@about')->name('about');
 
 Auth::routes();
 
