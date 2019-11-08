@@ -20,4 +20,14 @@ class SiteController extends Controller
     {
     	return view('site.about');
     }
+
+    public function service()
+    {
+    	return view('site.service');
+    }
+
+     public function gallery()
+    {
+    	return view('site.gallery');
+    }
 }

@@ -23,7 +23,13 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Map -->
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+    {{-- <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' /> --}}
+
+
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/theme.min.css') }}">
@@ -57,10 +63,25 @@
     <script src="{{ asset('assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.js') }}"></script>
 
     <!-- Map -->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    {{-- <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script> --}}
 
     <!-- Theme JS -->
     <script src="{{ asset('assets/js/theme.min.js') }}"></script>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZG9ua2FndW5pbGEiLCJhIjoiY2sycGl0czBhMDRlMTNpcWI4em45cThhZyJ9.97Vlu03zI5vG-1YgQ_0SdQ';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v10',
+            center: [39.2083,-6.7695712],
+            zoom: 9,
+            pitch: 45,
+            bearing: -17.6,
+            antialias: true
+        });
+
+        // map.addControl(new mapboxgl.NavigationControl());
+    </script>
   
 </body>
 </html>

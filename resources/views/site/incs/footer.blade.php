@@ -104,7 +104,7 @@
             <!-- List -->
             <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
               <li class="mb-3">
-                <a href="#!" class="text-reset">
+                <a href="{{ route('about')}}" class="text-reset">
                   About Us
                 </a>
               </li>
@@ -113,11 +113,7 @@
                   Contact Us
                 </a>
               </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Our Blog
-                </a>
-              </li>
+              
              
             </ul>
 

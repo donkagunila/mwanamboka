@@ -1,3 +1,19 @@
+<div class="topnav bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <div class="flex">
+             <!-- Button -->
+                  <a class="quote-text text-white" href="{{ route('contact')}}">
+                    Request a Quote
+                  </a>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div> 
+
  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
       <div class="container">
 
@@ -29,19 +45,19 @@
             </li>
 
              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#">
+              <a class="nav-link dropdown-toggle {{ Request::is('about-us*') ? 'active' : ''}}" href="{{ route('about')}}">
                 About Us
               </a>
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDocumentation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle {{ Request::is('services*') ? 'active' : ''}}" href="#" id="navbarDocumentation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Our Services
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDocumentation">
 
                 <!-- Item -->
-                <a class="d-flex align-items-center text-decoration-none" href="#">
+                <a class="d-flex align-items-center text-decoration-none" href="{{ route('service')}}">
                 
                   
                   <!-- Content -->
@@ -65,7 +81,7 @@
                 <hr>
             
                 <!-- Item -->
-                <a class="d-flex align-items-center text-decoration-none" href="#">
+                <a class="d-flex align-items-center text-decoration-none" href="{{ route('service')}}">
                 
                  
               
@@ -90,7 +106,7 @@
                 <hr>
             
                 <!-- Item -->
-                <a class="d-flex align-items-center text-decoration-none" href="#">
+                <a class="d-flex align-items-center text-decoration-none" href="{{ route('service')}}">
                 
                  
               
@@ -117,7 +133,7 @@
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#">
+              <a class="nav-link dropdown-toggle {{ Request::is('gallery*') ? 'active' : ''}}" href="{{ route('gallery')}}">
                 Gallery
               </a>
             </li>
@@ -126,10 +142,6 @@
             
           </ul>
 
-          <!-- Button -->
-          <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="#">
-            Request a Quote
-          </a>
 
         </div>
   
