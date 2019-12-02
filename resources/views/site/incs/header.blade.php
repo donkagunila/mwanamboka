@@ -19,8 +19,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="{{ route('index')}}">
-          {{-- <img src="assets/img/brand.svg" class="navbar-brand-img" alt="..."> --}}
-          MHL
+          <img src="{{ asset('assets/img/logo/logo.png')}}" class="navbar-brand-img" alt="...">
         </a>
 
         <!-- Toggler -->

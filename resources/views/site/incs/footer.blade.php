@@ -4,10 +4,10 @@
           <div class="col-12 col-md-4 col-lg-3">
         
             <!-- Brand -->
-            {{-- <img src="assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2"> --}}
-            <p class="footer-brand img-fluid mb-2">
+            <img src="{{ asset('assets/img/logo/logo.png') }}" alt="..." class="footer-brand img-fluid mb-2">
+           {{--  <p class="footer-brand img-fluid mb-2">
               Mwanamboka HL
-            </p>
+            </p> --}}
 
             <!-- Text -->
             <p class="text-muted mb-2">
