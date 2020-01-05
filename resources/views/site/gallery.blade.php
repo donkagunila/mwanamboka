@@ -7,7 +7,7 @@
 
     <!-- WELCOME
     ================================================== -->
-    <section class="py-8 py-md-11 border-bottom">
+    <section class="py-8 py-md-14 border-bottom">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
