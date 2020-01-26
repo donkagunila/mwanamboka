@@ -1,20 +1,4 @@
-<div class="topnav bg-primary">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-          <div class="flex">
-             <!-- Button -->
-                  <a class="quote-text text-white" href="{{ route('contact')}}">
-                    Request a Quote
-                  </a>
-          </div>
-        
-      </div>
-    </div>
-  </div>
-</div> 
-
- <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-dark">
+ <nav class="navbar navbar-expand-lg navbar-light navbar-primary fixed-top bg-primary">
       <div class="container">
 
         <!-- Brand -->
@@ -134,6 +118,12 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle {{ Request::is('gallery*') ? 'active' : ''}}" href="{{ route('gallery')}}">
                 Gallery
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                Request A quote
               </a>
             </li>
 

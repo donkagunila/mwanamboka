@@ -15835,30 +15835,3 @@ body.compensate-for-scrollbar {
     background-size: cover;
     background-position: center;
 }
-.navbar{
-    top: 35px;
-}
-.topnav{
-    height: 35px;
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
-    top: 0;
-    z-index: 99999;
-}
-.topnav .flex{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: flex-end;
-    -ms-align-items: center;
-    align-items: center;
-    height: 35px;
-}
-.topnav .quote-text{
-    font-size: 12px;
-    margin-right: 20px
-
-}   
